@@ -1,15 +1,15 @@
 import pandas as pd
 import os
 
-data  = {'Name': ['John', 'Anna', 'Peter', 'Linda'],
-         'Age': [28, 24, 35, 32],
-         'Location': ['New York', 'Paris', 'Berlin', 'London']}
+data  = {'Name': ['John', 'Anna', 'Peter'],
+         'Age': [28, 24, 35],
+         'Location': ['New York', 'Paris', 'Berlin']}
 
 df = pd.DataFrame(data)
 
 
 
-data_dir = 'data'
+data_dir = r'C:\Users\NeelKamalSahu\Pictures\ML-Playground\data'
 if not os.path.exists(data_dir):
     os.makedirs(data_dir)
 
